@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:QLCyclicADPlayer/QLCyclicADPlayer.xcodeproj">
+      location = "group:QLAutoRollView/QLAutoRollView.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:QLAutoRollView/QLAutoRollView.xcodeproj">
+      location = "group:QLCyclicADPlayer/QLCyclicADPlayer.xcodeproj">
    </FileRef>
 </Workspace>
