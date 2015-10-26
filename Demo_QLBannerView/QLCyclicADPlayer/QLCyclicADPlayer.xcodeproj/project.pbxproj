@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C116CAFD1AE79B0D00B0B046 /* QLPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C116CAFC1AE79B0D00B0B046 /* QLPageControl.m */; };
+		C1527F841ADC019A00479ED1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1527F831ADC019A00479ED1 /* main.m */; };
+		C1527F8F1ADC019A00479ED1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1527F8E1ADC019A00479ED1 /* Images.xcassets */; };
+		C1527F9E1ADC019A00479ED1 /* QLCyclicADPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1527F9D1ADC019A00479ED1 /* QLCyclicADPlayerTests.m */; };
+		C16DB8C91AE3EBF000352BF8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C16DB8C71AE3EBF000352BF8 /* Default-568h@2x.png */; };
+		C16DB8CA1AE3EBF000352BF8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C16DB8C81AE3EBF000352BF8 /* Default@2x.png */; };
+		C172C8081AE73DCD002ED9FB /* image0.png in Resources */ = {isa = PBXBuildFile; fileRef = C172C8041AE73DCD002ED9FB /* image0.png */; };
+		C172C8091AE73DCD002ED9FB /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = C172C8051AE73DCD002ED9FB /* image1.png */; };
+		C172C80A1AE73DCD002ED9FB /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = C172C8061AE73DCD002ED9FB /* image2.png */; };
+		C172C80B1AE73DCD002ED9FB /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = C172C8071AE73DCD002ED9FB /* image3.png */; };
+		C1BD10261ADC01F300719D55 /* QLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BD10231ADC01F300719D55 /* QLAppDelegate.m */; };
+		C1BD10271ADC01F300719D55 /* QLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BD10251ADC01F300719D55 /* QLViewController.m */; };
+		C1BD102B1ADC025500719D55 /* QLCyclicADPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BD102A1ADC025500719D55 /* QLCyclicADPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1527F981ADC019A00479ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1527F761ADC019A00479ED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1527F7D1ADC019A00479ED1;
+			remoteInfo = QLCyclicADPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C116CAFB1AE79B0D00B0B046 /* QLPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLPageControl.h; sourceTree = "<group>"; };
+		C116CAFC1AE79B0D00B0B046 /* QLPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLPageControl.m; sourceTree = "<group>"; };
+		C1527F7E1ADC019A00479ED1 /* QLCyclicADPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLCyclicADPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1527F821ADC019A00479ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1527F831ADC019A00479ED1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1527F8E1ADC019A00479ED1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C1527F971ADC019A00479ED1 /* QLCyclicADPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLCyclicADPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1527F9C1ADC019A00479ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1527F9D1ADC019A00479ED1 /* QLCyclicADPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLCyclicADPlayerTests.m; sourceTree = "<group>"; };
+		C16DB8C61AE34D6700352BF8 /* QLCyclicADPlayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLCyclicADPlayerDelegate.h; sourceTree = "<group>"; };
+		C16DB8C71AE3EBF000352BF8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Images.xcassets/LaunchImage.launchimage/Default-568h@2x.png"; sourceTree = "<group>"; };
+		C16DB8C81AE3EBF000352BF8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Images.xcassets/LaunchImage.launchimage/Default@2x.png"; sourceTree = "<group>"; };
+		C172C8041AE73DCD002ED9FB /* image0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image0.png; sourceTree = "<group>"; };
+		C172C8051AE73DCD002ED9FB /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		C172C8061AE73DCD002ED9FB /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		C172C8071AE73DCD002ED9FB /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		C1BD10221ADC01F300719D55 /* QLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLAppDelegate.h; sourceTree = "<group>"; };
+		C1BD10231ADC01F300719D55 /* QLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLAppDelegate.m; sourceTree = "<group>"; };
+		C1BD10241ADC01F300719D55 /* QLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLViewController.h; sourceTree = "<group>"; };
+		C1BD10251ADC01F300719D55 /* QLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLViewController.m; sourceTree = "<group>"; };
+		C1BD10291ADC025500719D55 /* QLCyclicADPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLCyclicADPlayer.h; sourceTree = "<group>"; };
+		C1BD102A1ADC025500719D55 /* QLCyclicADPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLCyclicADPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1527F7B1ADC019A00479ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1527F941ADC019A00479ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1527F751ADC019A00479ED1 = {
+			isa = PBXGroup;
+			children = (
+				C1527F801ADC019A00479ED1 /* QLCyclicADPlayer */,
+				C1527F9A1ADC019A00479ED1 /* QLCyclicADPlayerTests */,
+				C1527F7F1ADC019A00479ED1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1527F7F1ADC019A00479ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1527F7E1ADC019A00479ED1 /* QLCyclicADPlayer.app */,
+				C1527F971ADC019A00479ED1 /* QLCyclicADPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1527F801ADC019A00479ED1 /* QLCyclicADPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C1BD10221ADC01F300719D55 /* QLAppDelegate.h */,
+				C1BD10231ADC01F300719D55 /* QLAppDelegate.m */,
+				C1BD10241ADC01F300719D55 /* QLViewController.h */,
+				C1BD10251ADC01F300719D55 /* QLViewController.m */,
+				C1BD10281ADC023100719D55 /* QLCyclicADPlayer */,
+				C1527F811ADC019A00479ED1 /* Supporting Files */,
+			);
+			path = QLCyclicADPlayer;
+			sourceTree = "<group>";
+		};
+		C1527F811ADC019A00479ED1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C172C8041AE73DCD002ED9FB /* image0.png */,
+				C172C8051AE73DCD002ED9FB /* image1.png */,
+				C172C8061AE73DCD002ED9FB /* image2.png */,
+				C172C8071AE73DCD002ED9FB /* image3.png */,
+				C16DB8C71AE3EBF000352BF8 /* Default-568h@2x.png */,
+				C16DB8C81AE3EBF000352BF8 /* Default@2x.png */,
+				C1527F8E1ADC019A00479ED1 /* Images.xcassets */,
+				C1527F821ADC019A00479ED1 /* Info.plist */,
+				C1527F831ADC019A00479ED1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1527F9A1ADC019A00479ED1 /* QLCyclicADPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1527F9D1ADC019A00479ED1 /* QLCyclicADPlayerTests.m */,
+				C1527F9B1ADC019A00479ED1 /* Supporting Files */,
+			);
+			path = QLCyclicADPlayerTests;
+			sourceTree = "<group>";
+		};
+		C1527F9B1ADC019A00479ED1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1527F9C1ADC019A00479ED1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1BD10281ADC023100719D55 /* QLCyclicADPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C1BD10291ADC025500719D55 /* QLCyclicADPlayer.h */,
+				C1BD102A1ADC025500719D55 /* QLCyclicADPlayer.m */,
+				C16DB8C61AE34D6700352BF8 /* QLCyclicADPlayerDelegate.h */,
+				C116CAFB1AE79B0D00B0B046 /* QLPageControl.h */,
+				C116CAFC1AE79B0D00B0B046 /* QLPageControl.m */,
+			);
+			path = QLCyclicADPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1527F7D1ADC019A00479ED1 /* QLCyclicADPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1527FA11ADC019A00479ED1 /* Build configuration list for PBXNativeTarget "QLCyclicADPlayer" */;
+			buildPhases = (
+				C1527F7A1ADC019A00479ED1 /* Sources */,
+				C1527F7B1ADC019A00479ED1 /* Frameworks */,
+				C1527F7C1ADC019A00479ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLCyclicADPlayer;
+			productName = QLCyclicADPlayer;
+			productReference = C1527F7E1ADC019A00479ED1 /* QLCyclicADPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1527F961ADC019A00479ED1 /* QLCyclicADPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1527FA41ADC019A00479ED1 /* Build configuration list for PBXNativeTarget "QLCyclicADPlayerTests" */;
+			buildPhases = (
+				C1527F931ADC019A00479ED1 /* Sources */,
+				C1527F941ADC019A00479ED1 /* Frameworks */,
+				C1527F951ADC019A00479ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1527F991ADC019A00479ED1 /* PBXTargetDependency */,
+			);
+			name = QLCyclicADPlayerTests;
+			productName = QLCyclicADPlayerTests;
+			productReference = C1527F971ADC019A00479ED1 /* QLCyclicADPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1527F761ADC019A00479ED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Shrek;
+				TargetAttributes = {
+					C1527F7D1ADC019A00479ED1 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C1527F961ADC019A00479ED1 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = C1527F7D1ADC019A00479ED1;
+					};
+				};
+			};
+			buildConfigurationList = C1527F791ADC019A00479ED1 /* Build configuration list for PBXProject "QLCyclicADPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1527F751ADC019A00479ED1;
+			productRefGroup = C1527F7F1ADC019A00479ED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1527F7D1ADC019A00479ED1 /* QLCyclicADPlayer */,
+				C1527F961ADC019A00479ED1 /* QLCyclicADPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1527F7C1ADC019A00479ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C172C8081AE73DCD002ED9FB /* image0.png in Resources */,
+				C172C8091AE73DCD002ED9FB /* image1.png in Resources */,
+				C172C80A1AE73DCD002ED9FB /* image2.png in Resources */,
+				C16DB8CA1AE3EBF000352BF8 /* Default@2x.png in Resources */,
+				C1527F8F1ADC019A00479ED1 /* Images.xcassets in Resources */,
+				C172C80B1AE73DCD002ED9FB /* image3.png in Resources */,
+				C16DB8C91AE3EBF000352BF8 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1527F951ADC019A00479ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1527F7A1ADC019A00479ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C116CAFD1AE79B0D00B0B046 /* QLPageControl.m in Sources */,
+				C1BD10271ADC01F300719D55 /* QLViewController.m in Sources */,
+				C1527F841ADC019A00479ED1 /* main.m in Sources */,
+				C1BD10261ADC01F300719D55 /* QLAppDelegate.m in Sources */,
+				C1BD102B1ADC025500719D55 /* QLCyclicADPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1527F931ADC019A00479ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1527F9E1ADC019A00479ED1 /* QLCyclicADPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1527F991ADC019A00479ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1527F7D1ADC019A00479ED1 /* QLCyclicADPlayer */;
+			targetProxy = C1527F981ADC019A00479ED1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C1527F9F1ADC019A00479ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1527FA01ADC019A00479ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1527FA21ADC019A00479ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QLCyclicADPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1527FA31ADC019A00479ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QLCyclicADPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C1527FA51ADC019A00479ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QLCyclicADPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLCyclicADPlayer.app/QLCyclicADPlayer";
+			};
+			name = Debug;
+		};
+		C1527FA61ADC019A00479ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QLCyclicADPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLCyclicADPlayer.app/QLCyclicADPlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1527F791ADC019A00479ED1 /* Build configuration list for PBXProject "QLCyclicADPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1527F9F1ADC019A00479ED1 /* Debug */,
+				C1527FA01ADC019A00479ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1527FA11ADC019A00479ED1 /* Build configuration list for PBXNativeTarget "QLCyclicADPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1527FA21ADC019A00479ED1 /* Debug */,
+				C1527FA31ADC019A00479ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1527FA41ADC019A00479ED1 /* Build configuration list for PBXNativeTarget "QLCyclicADPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1527FA51ADC019A00479ED1 /* Debug */,
+				C1527FA61ADC019A00479ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1527F761ADC019A00479ED1 /* Project object */;
+}
